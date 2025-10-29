@@ -1,0 +1,865 @@
+  #root {
+   width: 100%;
+  }
+
+  .wrapper{
+    width: 1000px;
+    margin: auto;
+  }
+
+  .heading-title{
+    padding-bottom: 15px;
+  }
+
+  .login{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  .login-div {
+    background-color: #ffffff;
+    align-items: flex-end;
+    border-radius: 1rem;
+    padding-right: 20px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    /* display: flex; */
+  }
+
+  .forgot{
+    align-items: flex-end;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 8px;
+    padding-left: 30px;
+    padding-bottom: 9px;
+  }
+
+  .loginInputDiv{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+  }
+
+  .login-input{
+      display: flex;
+      justify-content: left;
+      color: #000000;
+      padding: 10px;
+      width: 100%;
+      text-align: left;
+      border-radius: 5px;
+      border: solid rgb(119, 119, 119) 0.5px;
+      background-color: #ffffff;
+  }
+
+  .loginP{
+    color: rgb(17, 17, 17);
+    text-align: left;
+    /* padding-top: 5px; */
+      padding-left: 30px;
+      padding-bottom: 9px;
+  }
+
+  .signUpP{
+    color:rgb(105, 105, 105) ;
+  }
+
+  #login-text{
+    text-align: left;
+    padding-top: 30px;
+      padding-left: 30px;
+      padding-bottom: 1px;
+  }
+
+  .second-div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #login-p{
+    text-align: left;
+    color: #696969;
+    padding-left: 30px;
+  }
+
+  .login-button-div{
+    padding-bottom: 2rem;
+    padding-left: 30px;
+    padding-right: 7px;
+  }
+
+  .login-btn {
+    background-color: #3339b3;
+    width: 100%;
+  }
+ 
+  .homeLink{
+    color: black;
+  }
+
+    .view {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+  .title{
+    background-color: #ffffff;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    height: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 40px;
+  }
+
+  .title-left { 
+    font-size: 1.4rem;
+    display: flex;
+    flex: 0 0 auto;
+    width: 150px;
+    /* left: 0; */
+  }
+
+  .title-right {
+    /* right: 0; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    /* padding: 10px; */
+  }
+
+  .leftButn{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .btn{
+    border: none;
+    padding: 0.6rem 1.2rem;
+    align-items: center;
+  }
+
+
+  .homeLink{
+    padding: 10px;
+  }
+
+  .userBtn {
+    border-radius: 50%;
+    background-color: rgb(201, 162, 162);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+  }
+
+    .imageBtnView {
+      width: 1px;
+      height: 1px;
+    }
+
+  .newPost{
+    background-color: #3339b3;
+      display: flex;
+      padding: 1rem;
+        width: 10rem;
+        height: 45px;
+  }
+
+
+  .view-p{
+    /* text-align: left; */
+    color: #696969;
+    /* padding-left: 30px; */
+  }
+
+  .viewPost-p{
+    color: rgb(71, 71, 71);
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+  .post-div{
+    text-align: left;
+    margin: auto;
+    padding: 2rem;
+    align-items: flex-end;
+    width: 800px;
+  }
+
+  .table{
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    /* text-align: center; */
+    border: 1px solid rgb(112, 112, 112);
+  }
+
+  
+
+  .tableRow{
+    display: flex;
+    border-bottom: 1px solid rgb(112, 112, 112);
+  }
+
+  .tableData{
+    padding: 2rem;
+    width: 200px;
+    display: flex;
+  }
+
+  #tableAction{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .deleteBtn{
+    color: red;
+  }
+
+  .create{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .addHeading{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    height: 5rem;
+    margin: auto;
+    width: 60rem;
+  }
+
+  .upperAddPost{
+    height: 20rem;
+    text-align: left;
+    width: 100%;
+    /* padding-right: 1rem; */
+  }
+
+  .addPostDiv{
+    width: 60rem;
+    background-color: #ffffff;
+    padding: 3rem;
+    margin: auto;
+    border-radius: 7px;
+  }
+
+  .AddP{
+    display: flex;
+    width: 100%;
+  }
+
+  .AddInput{
+    display: flex;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+      width:100%; 
+      height: 1rem;
+      padding: 10px;
+      border-width: 1px;
+      border: 1px solid #646464;
+  }
+
+  .AddInput::placeholder{
+    color: rgb(52, 52, 141);
+  }
+
+  .textArea::placeholder{
+    color: rgb(52, 52, 141);
+  }
+
+  .textArea{
+    background-color: #ffffff;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .AddInput[type=message]::placeholder{
+    left: 0;
+    top: 0;
+  }
+
+
+  #AddINput{
+    padding: 8rem;
+    width: 25rem;
+    height:4rem;
+    text-align: left;
+    /* border: #666666, 1px; */
+  }
+
+  .saveBtn{
+    display: flex;
+    width: 5rem;
+    height: 45px;
+    background-color: #3339b3;
+    /* text-align: center; */
+  }
+
+  .cancelBtn{
+    display: flex;
+    width: 6rem;
+    height: 45px;
+      background-color: #b8b8b8;
+      color: rgb(10, 10, 10);
+  }
+
+  .addPostSubmitDiv{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .saveBtnDiv{
+    padding-right: 15px;
+  }
+
+  .titleEdit{
+    display: flex;
+    top: 0;
+    position: absolute;
+    left: 15rem;
+    /* padding-left: 10rem; */
+  }
+
+  .editP{
+    color: #646464;
+  }
+
+  .editDiv{
+    position: absolute;
+    top: 3rem;
+    left: 15rem;
+  }
+
+  .inputEditDiv{
+    position: absolute;
+    top: 10rem;
+    left: 15rem;
+    text-align: left;
+    width: 50rem;
+  }
+
+  .editTitleInput{
+    background-color: #ffffff;
+    color: black;
+    border: solid #646464 1px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .editTextAre{
+    background-color: #ffffff;
+    color: black;
+    border: solid #646464 1px;
+    border-radius: 5px;
+    width: 100%;
+    height: 10rem;
+    padding-left: 20px;
+  }
+
+  .saveEditDiv{
+    padding-top: 20px;
+    display: flex;
+  }
+
+  .saveEditBtn{
+    background-color: #3339b3;
+  }
+
+  .cancelEditBtn{
+    background-color: #646464;
+    color: black;
+  }
+
+  .editSaveDiv{
+    padding-right: 10px;
+  }
+
+  .viewTitleDivHolder{
+    padding: 0 100px;
+  }
+
+  .viewTitleDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid rgb(201, 201, 201) 1px;
+  }
+
+  .backToProfileBtn{
+    background-color: #3339b3;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .viewPostTitleDiv{
+    top: 4rem;
+    /* margin: 6rem 12rem 0 12rem; */
+    padding-bottom: 1rem;
+    /* padding-top: 2rem; */
+    text-align: left;
+    right: 12rem;
+    left: 12rem;
+    border-bottom: solid rgb(201, 201, 201) 1px;
+  }
+
+  .viewPostTitleh1{
+    font-size: 3rem;
+  }
+
+  .viewPostTitleP{
+    /* position: relative;  */
+    color: #646464;
+  }
+
+  .viewPostContentDiv{
+    /* position: absolute; */
+    padding-top: 2rem;  
+    /* top: 12; */
+    /* right: 12rem; */
+    /* left: 12rem; */
+    /* text-align: left; */
+    border-bottom: solid rgb(201, 201, 201) 1px;
+    /* padding-bottom: 1rem; */
+  }
+
+
+  .editBtnDiv{
+    position: absolute;
+    display: flex;
+    padding-top: 3rem;
+  }
+
+  .EditBtnSubmit{
+    background-color: #646464;
+    color: #000000;
+  }
+
+  .EditBtnSubmitDiv{
+    padding-right: 1rem;
+  }
+
+  .DeleteBtnSubmit{
+    background-color: rgb(214, 42, 42);
+  }
+
+  .backIcon{
+    padding-right: 6px;
+  }
+
+  .DeleteIcon{
+    padding-right: 6px;
+  }
+
+  .user{
+    justify-content: center;
+  }
+
+  .userTitle{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-bottom: solid rgb(201, 201, 201) 1px;
+  }
+
+  .userBackBtn{
+    background-color: #e4e4e4;
+  }
+
+  .userBackIcon{
+    color: #000000;
+  }
+
+  .imageDiv{
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+  .imageBtn{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .info{
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .userInfoDiv{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .singleInfoDiv{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .emailIcon{
+    background-color: #7c98f3;
+    border-radius: 6px;
+    padding: 10px;
+    color: #3339b3;
+    width: 2rem;
+    height: 2rem;
+    
+  }
+
+  .emailEdit{
+    background-color: #ffffff;
+  }
+
+  .emailIconDiv{
+    padding-right: 2rem;
+  }
+
+  .editEmailIcon{
+    color: #000000;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .emailDiv{
+    text-align: left;
+      align-items: center;
+  }
+  
+  .emailp{
+    color: rgb(68, 68, 68);
+  }
+  
+  .rightSingleInfoDiv{
+    display: flex;
+    text-align: center;
+      align-items: center;
+  }
+
+  .userbtns{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .userSaveBtn{
+    width: 100%;
+    background-color: #3339b3;
+  }
+
+  .logoutBtn{
+    width: 100%;
+    color: red;
+    background-color: #e4e4e4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .activityDiv{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+  }
+
+  .act{
+    border-bottom: solid rgb(201, 201, 201) 1px;
+    padding-bottom: 20px;
+  }
+
+  .activities{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 16rem;
+    justify-content: space-between;
+  }
+
+  .activitiesLink{
+    color: rgb(68, 68, 68);
+  }
+
+  .activities a:hover{
+    border-bottom: 2px solid #3339b3;
+  }
+
+  .creations{
+    padding-top: 2rem;
+  }
+
+  .creationImages{
+    border-radius: 25px;
+    padding: 10px;
+    width: 20rem;
+    height: 15rem;
+  }
+
+  .settingTitle{
+    /* position: absolute; */
+    /* top: 0; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .searchDiv{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .searchinput{
+    background-color: #b6b5bb;
+    color: #2c2c2c;
+    border: 1px;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .searchDivHolder{
+    top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    margin: 0 40px;
+  }
+  
+  .searchInput{
+    border-radius: 10px;
+    background-color: #b6b5bb;
+    color: #696969;
+    border: 1px;
+    height: 100%;
+    padding-left: 50px;
+    width: 100%;
+  }
+
+  .searchInput::placeholder{
+    font-size: 1rem;
+  }
+
+  .searchIcon{
+    position: absolute;
+    color: #696969;
+    width: 20px;
+    height: 20px;
+    left: 60px;
+  }
+
+  .settingsUserDivHolder{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .settingsUserDiv{
+    background-color: #ffffff;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .settingsUserIcon{
+    width: 5rem;
+    height: 5rem;
+    color: rgb(201, 162, 162);
+    background-color: #2c2c2c;
+    border-radius: 50%;
+  }
+
+  .settingsUserInfo{
+    padding-left: 3rem;
+    text-align: left;
+    align-items: center;
+  }
+
+  .settingLeftUser{
+    display: flex;
+    align-items: center;
+  }
+
+  .settingRightUser{
+    align-items: center;
+    padding-right: 2rem;
+  }
+
+  .settingUserBtn{
+    background-color: #ffffff;
+    color: black;
+  }
+
+  .accountDivHolder{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+  }
+  .editProfileDiv1{
+    border-bottom: solid #e4e4e4 2px;
+  }
+
+  .editProfileDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .accountDiv{
+    background-color: #ffffff;
+    /* padding: 1rem; */
+    border-radius: 10px;
+  }
+
+  .accountLeft{
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+  }
+
+  .forwardIcon{
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .userIcnoDiv{
+    padding-right: 2rem;
+  }
+
+  .accountRight{
+    align-items: center;
+    display: flex;
+  }
+
+  .userIcno{
+    width: 30px;
+    height: 30px;
+    background-color: #b6b5bb;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .editProfilepP{
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+  }
+
+  .toggle{
+    background-color: #b6b5bb;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    transition: background-color 0.1s ease, border-color 0.2s ease;
+  }
+
+  .toggle .thumb{
+    background-color: #ffffff;
+    border-radius: 100px;
+    transform: translateX(0);
+    height: 10px;
+    width: 10px;
+    transition: left 0.15s ease;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transform: translateY(-50%);
+  }
+
+  .toggle.toggled{
+    background-color: #3339b3;
+  }
+
+  .toggled:hover{
+    border-color: #646464;
+  }
+
+  .toggle.toggled .thumb{
+    left: calc(50px - 27px);
+  }
+
+  .lastDivp{
+    color: rgb(126, 126, 126);
+  }
+
+  .settingsBtnsDiv{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+  }
+
+  .settingsbtn{
+    background-color: #ffffff;
+    width: 100%;
+    color: red;
+    border-radius: 0;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .settingsbtn2{
+    background-color: #ffffff;
+    width: 100%;
+    color: red;
+    padding: 1rem;
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .settingsLogoutBtn{
+    padding-bottom: 2px;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .footer p{
+    color: #a3a3a3;
+  }

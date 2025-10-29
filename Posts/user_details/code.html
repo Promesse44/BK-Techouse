@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>User Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#4A90E2",
+                        "background-light": "#F8F9FA",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#333333] dark:text-gray-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- Top App Bar -->
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10 border-b border-gray-200 dark:border-gray-700">
+<div class="text-[#333333] dark:text-gray-200 flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</div>
+<h2 class="text-[#333333] dark:text-gray-200 text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Profile</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-[#333333] dark:text-gray-200 gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<div class="text-[#333333] dark:text-gray-200" data-icon="Settings" data-size="24px" data-weight="regular">
+<span class="material-symbols-outlined text-2xl">settings</span>
+</div>
+</button>
+</div>
+</div>
+<div class="flex flex-col p-4 space-y-6">
+<!-- Profile Header -->
+<div class="flex p-4 @container">
+<div class="flex w-full flex-col gap-4 items-center">
+<div class="relative">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32 border-4 border-white dark:border-gray-800 shadow-md" data-alt="User's profile avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDHQt1mL9u4lF4kFq2sk3nUjy9oHzQa-PiUtJKPN0ACAzRkVaoq4U6KBa8KMfU_v-F6zJhqAg7dJ5vlFXsEaveTcNRCrLny5ToKQ-CAjBkHf76NjyvqmJNZrunoyfCh0zAIwL2qysfhkxhTZ8JAZ5wun7UVFPSlA9SbrPLHyCVW8At80CsKnWDE0kzQvz_BS0OlVK7NjtFJypYyG5p2QGSkYN_01vsclgzip08Zgj6M3oebyYR84ujizQcnWPt9tRlDKqmUDxBur6Q");'></div>
+<button class="absolute bottom-1 right-1 flex items-center justify-center size-8 bg-primary text-white rounded-full shadow-md">
+<span class="material-symbols-outlined text-lg">edit</span>
+</button>
+</div>
+<div class="flex flex-col items-center justify-center">
+<p class="text-[#333333] dark:text-gray-100 text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Eleanor Vance</p>
+<p class="text-[#888888] dark:text-gray-400 text-base font-normal leading-normal text-center">@eleanorv</p>
+</div>
+</div>
+</div>
+<!-- Personal Information Section -->
+<div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-4 space-y-2">
+<h3 class="text-[#333333] dark:text-gray-100 text-lg font-bold leading-tight tracking-[-0.015em] px-2 pb-2">Personal Information</h3>
+<!-- List Item: Email -->
+<div class="flex items-center gap-4 px-2 min-h-[72px] py-2 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-primary flex items-center justify-center rounded-lg bg-primary/20 shrink-0 size-12">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-[#333333] dark:text-gray-100 text-base font-medium leading-normal line-clamp-1">Email</p>
+<p class="text-[#888888] dark:text-gray-400 text-sm font-normal leading-normal line-clamp-2">eleanor.v@email.com</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="text-[#888888] dark:text-gray-400 flex size-7 items-center justify-center" data-icon="PencilSimple" data-size="24px" data-weight="regular">
+<span class="material-symbols-outlined">edit</span>
+</div>
+</div>
+</div>
+<!-- List Item: Phone Number -->
+<div class="flex items-center gap-4 px-2 min-h-[72px] py-2 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-primary flex items-center justify-center rounded-lg bg-primary/20 shrink-0 size-12">
+<span class="material-symbols-outlined">phone</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-[#333333] dark:text-gray-100 text-base font-medium leading-normal line-clamp-1">Phone Number</p>
+<p class="text-[#888888] dark:text-gray-400 text-sm font-normal leading-normal line-clamp-2">+1 (555) 123-4567</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="text-[#888888] dark:text-gray-400 flex size-7 items-center justify-center" data-icon="PencilSimple" data-size="24px" data-weight="regular">
+<span class="material-symbols-outlined">edit</span>
+</div>
+</div>
+</div>
+<!-- List Item: Bio -->
+<div class="flex items-center gap-4 px-2 min-h-[72px] py-2 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-primary flex items-center justify-center rounded-lg bg-primary/20 shrink-0 size-12">
+<span class="material-symbols-outlined">person</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-[#333333] dark:text-gray-100 text-base font-medium leading-normal line-clamp-1">About Me</p>
+<p class="text-[#888888] dark:text-gray-400 text-sm font-normal leading-normal line-clamp-2">Creative mind, avid reader, and coffee enthusiast. Exploring the world one pixel at a time.</p>
+</div>
+</div>
+<div class="shrink-0">
+<div class="text-[#888888] dark:text-gray-400 flex size-7 items-center justify-center" data-icon="PencilSimple" data-size="24px" data-weight="regular">
+<span class="material-symbols-outlined">edit</span>
+</div>
+</div>
+</div>
+</div>
+<!-- User Activity Section -->
+<div class="space-y-4">
+<h3 class="text-[#333333] dark:text-gray-100 text-lg font-bold leading-tight tracking-[-0.015em] px-2">My Activity</h3>
+<!-- Tabs -->
+<div class="border-b border-gray-200 dark:border-gray-700">
+<nav aria-label="Tabs" class="-mb-px flex space-x-6 px-2">
+<a class="shrink-0 border-b-2 border-primary px-1 pb-3 text-sm font-semibold text-primary" href="#">Creations</a>
+<a class="shrink-0 border-b-2 border-transparent px-1 pb-3 text-sm font-medium text-gray-500 dark:text-gray-400 hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-700 dark:hover:text-gray-300" href="#">Liked</a>
+<a class="shrink-0 border-b-2 border-transparent px-1 pb-3 text-sm font-medium text-gray-500 dark:text-gray-400 hover:border-gray-300 dark:hover:border-gray-600 hover:text-gray-700 dark:hover:text-gray-300" href="#">History</a>
+</nav>
+</div>
+<!-- Content Grid -->
+<div class="grid grid-cols-2 gap-4">
+<div class="aspect-square bg-cover bg-center rounded-lg" data-alt="A photo of mountains and a valley." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA_7WUPP5Ujj4uWF0xQCFANfuscnU4_dKW6zP1MNfuCFfuU2RhCSh6u_hLEu5h-EEUCKpO58hc_ZmMXa5b2jSjIKrnjbwGGp7GNqs3MkBr1KTbdSRCxwIDZ9EgOoeEHczsN6Z7L9EedUegJ3M7XjrEzPOHAF2RavBoTrGXBw3osPhobQQPNpix2jYcLuv4Cl_gCrLdyZBKeIhVWh2CMIIuInfHi4NuEQoe5Rbdzzt3TOeF_n4WfNMMl9FknIe0JyltbjSVxuwFRagI')"></div>
+<div class="aspect-square bg-cover bg-center rounded-lg" data-alt="A photo of a serene lake house." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA1wz7xarC5jTVzX1GhbZAVpetiHuPKuOerMrwDBeZs5LdGZNDR1UJkVuq7nZRIVrE27alxpgH7IZWgM0MdabBLk5qtkKuQx90pSUsJmPRbUKrrHMdcDqPaCjvnMk5XSmhzzAKIvDAbvLcYVB1DFvqWTmwX7I3v4bk9EVrkcLZuvJc8FNM8bHGyePPBuaLKBQZUdQKFBW3h-YkwUPXzbmfcJRQwF5RmgfSC1opbYFwHP4qMF3YjJuoqrOTd2wsc1PzeKhqBnwPncdo')"></div>
+<div class="aspect-square bg-cover bg-center rounded-lg" data-alt="A photo of a misty forest path." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD-bGvCr0KczltkvCUwahsRQDB5n_CK8MoZNjCzXJQB6q3ExgHnrbhxBBlDUyVXgeoUPkDUcIITjvxxBiBpydYP8IT4LjDmauk-UI-uoWS8SMjOB2YBXCfg9HcQ8BQiQgbcOdOKxAsgUz_eSXn6mu3s6k_I89W_OT6sEw096RzacZKRmtWBnyZ6NCAEkzOf0usAN5EU0isuPAc4eoKB5SFJa4yVT0_nEOLtkPPyPF4qQb_lHeGmDblB1BZtSc8qf7RpLmrHlcWEjao')"></div>
+<div class="aspect-square bg-cover bg-center rounded-lg" data-alt="A photo of a green rolling hill under a blue sky." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD_sdmqQaoOk5Isc6ANwdTBP-RDyMgcf8wjogWjyut_rLKio1stfF82y6-uY1bLvyablCRTeTNaRKfVm-95fHWVgo2WziV5_tp5rUtS01NfdMJsVXBzbAeDXZW0zvZtJP2bmd6JoljbzhWsepWkxkSuvpkMxN1Oy-lmRrV2qFoRxY7ikyNGOACoN7H7_70pGVC0X0qkylxEUOwKeUZtc0L3W6ijwZTvlpn5xCBfv-wcB4zzgCmJJ0zN62Ubye83tR7Ln8fmm8eM4H0')"></div>
+</div>
+</div>
+<!-- Save Button -->
+<div class="pt-4">
+<button class="flex w-full min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-4 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Save Changes</span>
+</button>
+</div>
+<!-- Logout Button -->
+<div class="pb-4">
+<button class="flex w-full min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-4 bg-transparent text-red-500 text-base font-bold leading-normal tracking-[0.015em] gap-2">
+<span class="material-symbols-outlined">logout</span>
+<span class="truncate">Logout</span>
+</button>
+</div>
+</div>
+</div>
+</body></html>

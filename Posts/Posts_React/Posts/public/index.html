@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Posts</title>
+</head>
+
+<body id="body">
+  <h1>POSTS</h1>
+  <h2 id="header"></h2>
+  <button class="login_btn" >Login</button>
+  <button class="signup_btn">sign up</button>
+  <button class="logout_btn" style="display: none;" onclick="logOut()">Logout</button>
+  <section class="login_section" style="display: none">
+    <input type="text" id = "user_email" style="display: flexbox;" placeholder="email"></input>
+    <input type="text" id = "user_password" style="display: flexbox;" placeholder="password"></input>
+    <button type="button" id="login"  style="display: flexbox;">Login</button>
+  </section>
+  <section class="signup_section" style="display: none;">
+    <input type="text" class="new_name" placeholder="Name">
+    <input type="text" class="new_email" placeholder="Email">
+    <input type="text" class="new_password" placeholder="Password">
+    <button class="send_signup">Sign up</button>
+  </section>
+  <section class="add_section" style="display: none;">
+    <input type="text" id="input"><button type="button" id="addPost" onclick="addPosts()">Add post</button></input>
+  </section>
+  <section class="edit-section" style="display:none">
+  <input type="text" id="edit-input"><button type="button" class="update-btn">Update</button>
+  </section>
+  <section class="main">
+    <ul id="posts"></ul>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>
