@@ -1,0 +1,705 @@
+
+
+.headerDiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  /* border-bottom: solid 1px rgb(173, 173, 173); */
+}
+
+.navLinksDIv{
+  display: flex;
+}
+
+.singleNavLinkDIv{
+  padding: 0 1rem;
+}
+
+.singleNavLinkDIv1{
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink1 span{
+  padding-bottom: 3px;
+}
+
+
+.navLink1{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* padding-bottom: 3px; */
+}
+
+.navLink1 span:hover{
+  border-bottom: 2px solid #25d366;
+}
+
+.navLink{
+  color: black;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 3px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.navLink:hover{
+  border-bottom: 2px solid #25d366;
+}
+
+/* .naLinkDiv{
+  overflow: hidden;
+} */
+
+.headerBtnsDivHolder{
+  display: flex;
+  align-items: center;
+    height: 45px;
+}
+
+.headerBtnsDiv{
+  padding-right: 15px;
+  height: 100%;
+}
+
+.headerBtnsDiv2{
+  height: 100%;
+}
+
+.loginBtn{
+  height: 100%;
+  width: 7rem;
+  border-radius: 30px;
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginBtnIcon{
+  padding-left: 8px;
+}
+
+.loginBtnSpan{
+  font-size: 16px;
+}
+
+.loginBtn:hover{
+  cursor: pointer;
+  background-color: #111B21;
+  color: #E6FFDA;
+}
+
+.downloadBtn{
+  height: 100%;
+  /* width: 7rem; */
+  border-radius: 30px;
+  border: solid black 1px;
+  background-color: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.downloadBtn span{
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.downloadBtn:hover{
+  cursor: pointer;
+  background-color: #111B21;
+    color: #E6FFDA;
+}
+
+.containerHolder{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: 42rem; 
+}
+
+.container{
+  background-image: url("../containerimg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(49, 54, 54);
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.leftContainer{
+  padding-left: 6rem;
+  padding-top: 1rem;
+  width: 20rem;
+  height: 30rem;
+}
+
+.containerH1{
+  font-size: 5rem;
+  color: white;
+  font-weight: 400
+}
+
+.containerH4{
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.containerBtns{
+  display: flex;
+}
+
+.containerLoginBtnDiv{
+  padding-left: 15px;
+}
+
+.loginBtn2{
+  height: 45px;
+  width: 7rem;
+  border-radius: 30px;
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginBtn2 span{
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+
+.loginBtn2:hover{
+  cursor: pointer;
+  background-color: #111B21;
+  color: #E6FFDA;
+}
+
+.downloadBtn2:hover {
+  cursor: pointer;
+  background-color: #111B21;
+  color: #E6FFDA;
+}
+
+/* .downloadBtn2{
+  height: 45px;
+  border-radius: 30px;
+  border: solid black 1px;
+  background-color: #25d366;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+/* .downloadBtn2 span{
+  padding-right: 10px;
+} */
+
+
+.rightContainer{
+  padding-left: 22rem;
+  width: 20rem;
+  height: 100%;
+}
+
+.textImg{
+  /* width: 2re; */
+  height: 50px;
+  /* padding-bottom: 5rem; */
+}
+
+.imageimg{
+  width: 25rem;
+  height: 15rem;
+}
+
+.reactionImg{
+  position: absolute;
+  top: 35.4rem;
+  height: 50px;
+}
+
+.Pdiv{
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.dataP{
+  color: rgb(83, 83, 83);
+  font-size: 12px;
+}
+
+.secondContainer{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+}
+
+.leftSecondContainer{
+  padding-left: 4rem;
+}
+
+.rightSecondContainer{
+  padding-left: 3rem;
+  padding-top: 4rem;
+  padding-right: 3rem;
+}
+
+.h1{
+  font-size: 4rem;
+  line-height: 4rem;
+  color: rgb(31, 31, 31);
+  font-weight: 400
+}
+
+.h4{
+  font-weight: 500;
+  color: rgb(31, 31, 31);
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.windowsDownloadBtn{
+  height: 45px;
+  /* width: 13rem; */
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 30px;
+  border: solid black 1px;
+  background-color: #25d366;
+}
+
+.windowsDownloadBtn span{
+  font-size: 16px;
+  padding-right: 8px;
+}
+
+.windowsDownloadBtn:hover{
+  cursor: pointer;
+  background-color: #111B21;
+  color: #E6FFDA;
+}
+
+.thirdContainer{
+  display: flex;
+  padding-top: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.leftThirdDiv{
+  padding-top: 4rem;
+  padding-left: 5rem;
+  width: 30rem;
+}
+
+.learnMorelINK{
+  text-decoration: none;
+  color: black;
+  padding-bottom: 3px;
+  display: flex;
+  padding-top: 1rem;
+  width: 7rem;
+  align-items: center;
+}
+
+.learnMorelINKp{
+  border-bottom: solid 2px #25d366;
+}
+
+.learnMorelINKIcon{
+  padding-left: 13px;
+}
+
+.learnMorelINK span{
+  border-bottom: solid 2px #25d366;
+  text-align: center;
+}
+
+
+.learnMorelINK:hover{
+  color: rgb(82, 145, 82);
+}
+
+.rightThirdDiv{
+  padding-right: 12rem;
+}
+
+.fourthContainer{
+  display: flex;
+  background-color: #111B21;
+  width: 100%;
+}
+
+.fourthleftContainer{
+  padding-left: 10rem;
+}
+
+.fourthrightContainer{
+  padding-left: 6rem;
+}
+
+
+
+.h13{
+  font-size: 4rem;
+  line-height: 4rem;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+.h14{
+  font-size: 4rem;
+    line-height: 4rem;
+    color: #25d366;
+    font-weight: 400;
+}
+
+.p14{
+  font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    line-height: 25px;
+    padding-right: 4rem;
+}
+
+
+.learnMorelINK1 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-bottom: 3px;
+    display: flex;
+    padding-top: 1rem;
+    width: 7rem;
+    align-items: center;
+}
+
+.learnMorelINKp1{
+  border-bottom: solid 2px #25d366;
+}
+
+.learnMorelINK1:hover {
+  color: rgb(82, 145, 82);
+}
+
+.rightThirdDiv1 {
+  padding-right: 12rem;
+  /* position: absolute; */
+  /* left: 30rem; */
+}
+
+.videocalImg{
+  position: absolute;
+  right: 10rem;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  /* top */
+}
+
+.videocalImgChat{
+  position: absolute;
+  padding-top: 9rem;
+  right: 10rem;
+  width: 25rem;
+  /* height: 10rem; */
+}
+
+.sayWhatYouFeel{
+  position: absolute;
+  width: 21rem;
+  padding-top: 12rem;
+}
+
+.sayWhatYouFeel1{
+ position: absolute;
+}
+
+.thirdContainer1 {
+  display: flex;
+  padding-top: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+  justify-content: space-between;
+}
+
+.rightSecondContainer1 {
+  padding-left: 32rem;
+  padding-top: 4rem;
+  padding-right: 7rem;
+  padding-bottom: 20rem;
+  width: 28rem;
+}
+
+.leftSecondContainer1{
+  padding-left: 12rem;
+}
+
+.end{
+  background-color: #111B21;
+}
+
+.lastContainer{
+  background-color: #E6FFDA;
+  padding-bottom: 7rem;
+  display: flex;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.rightLastContainer{
+  justify-content: space-between;
+  padding-top: 4rem;
+  padding-right: 5rem;
+  height: 31rem;
+}
+
+.bottomRightLastContainer{
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.nextBtn{
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1.3rem;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.nextBtn:hover{
+  cursor: pointer;
+}
+
+/* .nextIcon{
+  width: 2rem;
+  height: 2rem;
+} */
+
+.h10{
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.whatsappIcon{
+  width: 2rem;
+  height: 2rem;
+}
+
+.readMoreBtnHolder{
+  padding-top: 2rem;
+}
+
+.readMoreBtnHolder1{
+  padding-top: 4rem;
+}
+
+.readMoreBtn{
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: solid black 1px;
+}
+
+.readMoreBtn:hover{
+  cursor: pointer;
+}
+
+.leftLastContainer1Container{
+  padding: 4rem 1rem;
+  display: flex;
+  width: 50rem;
+}
+
+.leftLastContainer1{
+  background-color: white;
+  justify-content: space-between;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.footer{
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+}
+
+.upperFooter{
+  display: flex;
+  padding-bottom: 4rem;
+  border-bottom: solid 1px #5e5e5e;
+}
+
+.downloadHolder{
+  padding-top: 5rem;
+    height: 50px;
+}
+
+.whatsappImg{
+  width: 10rem;
+  height: 10rem;
+}
+
+.footerDownload{
+  height: 100%;
+    width: 10rem;
+    border-radius: 30px;
+    border: solid black 1px;
+    background-color: #25d366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerDownload span{
+  font-size: 17px;
+  padding-right: 15px;
+}
+
+.footerDownload:hover{
+  cursor: pointer;
+  background-color: #E6FFDA;
+}
+
+.linksHolderContainer{
+  display: flex;
+  padding-left: 4rem;
+}
+
+.linksHolder{
+  padding-left: 5rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.LinksP{
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 12px;
+}
+
+.footerLink{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 20px;
+  padding-top: 10px;
+}
+
+.footerLink:hover{
+  border-bottom: solid 1px white;
+}
+
+.lowerFooter{
+  display: flex;
+  padding-top: 3rem;
+  /* justify-content: space-between; */
+}
+
+.leftLowerFooter{
+  display: flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.leftLowerFooter1{
+  width: 128px;
+}
+
+.footerP{
+  color: white;
+  align-items: center;
+  font-size: 13px;
+}
+
+.leftLowerFooter2{
+  width: 112px;
+}
+
+.footerL{
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+
+.rightLower{
+  display: flex;
+  justify-content: space-between;
+  width: 43rem;
+  padding-left: 23px;
+}
+
+.midLowerFooter{
+  padding-left: 60px;
+  display: flex;
+}
+
+.footerBtnHolder{
+  padding-right: 1rem;
+}
+
+.footerBtn{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #fff;
+  background-color: #1c1e21;
+  color: #fff;
+}
+
+.footerBtnIcon{
+  width: 20px;
+  height: 20px;
+}
+
+.footerBtn:hover{
+  background-color: #25d366;
+  border: 1px;
+  cursor: pointer;
+  color: #1c1e21;
+}
+
+.language{
+  background-color: #111B21;
+  font-size: 16px;
+  padding: 1rem 2rem;
+  border: solid 2px #fff;
+  width: 15rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+
+
+
+
+
